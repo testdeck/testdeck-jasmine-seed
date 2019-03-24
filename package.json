@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "pretest": "tsc",
-    "test": "nyc jasmine",
+    "test": "nyc jasmine JASMINE_CONFIG_PATH=test/jasmine.json",
     "prepare": "tsc"
   },
   "repository": {

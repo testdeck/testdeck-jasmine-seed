@@ -7,13 +7,13 @@ declare var console, setTimeout;
 function doWork(): Promise<void> {
     return new Promise(resolve => setTimeout(resolve, 1000));
 }
-beforeEach(async () => {
+beforeAll(async () => {
     // Run express?
     console.log("start server");
     await doWork();
     console.log("server started");
 });
-afterEach(async () => {
+afterAll(async () => {
     // Kill the server.
     console.log("kill server");
     await doWork();
