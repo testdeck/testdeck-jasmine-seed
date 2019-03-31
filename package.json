@@ -21,11 +21,11 @@
   "homepage": "https://github.com/testdeck/testdeck-jasmine-seed#readme",
   "dependencies": {},
   "devDependencies": {
-    "@types/chai": "*",
     "@types/jasmine": "*",
+    "@types/chai": "*",
     "@testdeck/jasmine": "*",
-    "chai": "*",
     "jasmine": "*",
+    "chai": "*",
     "nyc": "*",
     "source-map-support": "*",
     "typescript": "*"
