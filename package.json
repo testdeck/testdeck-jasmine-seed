@@ -18,14 +18,15 @@
   "bugs": {
     "url": "https://github.com/testdeck/testdeck-jasmine-seed/issues"
   },
-  "homepage": "https://github.com/testdeck/testdeck-jasmine-seed#readme",
+  "homepage": "https://www.testdeck.org",
   "dependencies": {},
   "devDependencies": {
-    "@types/jasmine": "*",
-    "@types/chai": "*",
     "@testdeck/jasmine": "*",
-    "jasmine": "*",
+    "@types/chai": "*",
+    "@types/jasmine": "*",
     "chai": "*",
+    "jasmine": "*",
+    "jasmine-spec-reporter": "*",
     "nyc": "*",
     "source-map-support": "*",
     "typescript": "*"

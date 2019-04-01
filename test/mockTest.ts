@@ -16,7 +16,7 @@ class SUT {
 }
 
 @suite
-class TestSuite {
+class MockTestSuite {
 
   private sut: SUT;
 
@@ -25,8 +25,7 @@ class TestSuite {
     this.sut = new SUT();
   }
 
-  @test
-  someTest() {
+  @test "mock test"() {
 
     spyOn(this.sut, 'getFlag').and.returnValue(true);
     expect(this.sut.getFlag('foo')).toBe(true);
