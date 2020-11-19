@@ -21,15 +21,15 @@
   "homepage": "https://www.testdeck.org",
   "dependencies": {},
   "devDependencies": {
-    "@testdeck/jasmine": "*",
-    "@types/chai": "*",
-    "@types/jasmine": "*",
-    "chai": "*",
-    "jasmine": "*",
-    "jasmine-spec-reporter": "*",
-    "nyc": "*",
-    "source-map-support": "*",
-    "typescript": "*"
+    "@testdeck/jasmine": "latest",
+    "@types/chai": "latest",
+    "@types/jasmine": "latest",
+    "chai": "latest",
+    "jasmine": "latest",
+    "jasmine-spec-reporter": "latest",
+    "nyc": "latest",
+    "source-map-support": "latest",
+    "typescript": "latest"
   },
   "nyc": {
     "check-coverage": true,
